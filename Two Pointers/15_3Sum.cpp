@@ -19,7 +19,7 @@ vector<vector<int>> threeSum(vector<int>& nums) {
                 l++;
             }
             else{
-                res.push_back({ nums[i], nums[l], nums[r]});
+                res.push_back({ nums[i], nums[l], nums[r] });
                 l++;
                 while(nums[l-1] == nums[l] && l < r){
                     l++;
